@@ -1,6 +1,6 @@
 use std::{env::current_dir, vec};
 
-use npm_package::{get_package_info, is_package_exists, Options, PackageInfo, PackageJSON};
+use npm_pkg::{get_package_info, is_package_exists, Options, PackageInfo, PackageJSON};
 
 #[test]
 fn it_should_get_package_info() {

@@ -1,10 +1,10 @@
 [package]
-name = "npm_package"
+name = "npm_pkg"
 version = "0.1.0"
 edition = "2021"
 description = "Get npm package info"
-homepage = "https://github.com/Chersquwn/npm_package"
-repository = "https://github.com/Chersquwn/npm_package"
+homepage = "https://github.com/Chersquwn/npm_pkg"
+repository = "https://github.com/Chersquwn/npm_pkg"
 authors = ["Chersquwn <chersquwn@gmail.com>"]
 license = "MIT"
 

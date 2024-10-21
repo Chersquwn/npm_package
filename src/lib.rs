@@ -76,7 +76,7 @@ static CURRENT_DIR: LazyLock<PathBuf> = LazyLock::new(|| current_dir().unwrap())
 /// # Exmaple
 /// ```
 /// use std::{env::current_dir, vec};
-/// use npm_package::{get_package_info, is_package_exists, Options, PackageInfo, PackageJSON};
+/// use npm_pkg::{get_package_info, is_package_exists, Options, PackageInfo, PackageJSON};
 
 /// let pkg_info = get_package_info("consola", Options::default());
 /// assert_eq!(pkg_info, Some(PackageInfo {
@@ -161,7 +161,7 @@ pub fn get_package_json_path(name: &str, options: &Options) -> Option<PathBuf> {
 /// # Exmaple
 /// ```
 /// use std::{env::current_dir, vec};
-/// use npm_package::{get_package_info, is_package_exists, Options, PackageInfo, PackageJSON};
+/// use npm_pkg::{get_package_info, is_package_exists, Options, PackageInfo, PackageJSON};
 ///
 /// assert!(is_package_exists("magic-string", &Options::default()));
 /// assert!(!is_package_exists("abc", &Options::default()));

@@ -1,11 +1,11 @@
-# npm_package
+# npm_pkg
 
 Get npm package information.
 
 ## Install
 
 ```rust
-cargo add npm_package
+cargo add npm_pkg
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ cargo add npm_package
 ```rust
 use std::{env::current_dir, vec};
 
-use npm_package::{get_package_info, is_package_exists, Options, PackageInfo, PackageJSON};
+use npm_pkg::{get_package_info, is_package_exists, Options, PackageInfo, PackageJSON};
 
 let pkg_info = get_package_info("consola", Options::default());
 
